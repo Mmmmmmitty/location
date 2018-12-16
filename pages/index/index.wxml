@@ -22,7 +22,7 @@
   <view class="search-box">
     <view class="head-box">
       <text class="search-title">地址名称</text>
-      <input class="search-input" bindinput='inputVal' />
+      <input class="search-input" auto-focus bindinput='inputVal' />
     </view>
     <view class="result-box">
       <view class="result-item" wx:for='{{list}}' wx:key='id' data-item='{{item}}' bindtap='onClick'>

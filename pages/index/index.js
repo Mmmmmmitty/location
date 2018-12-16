@@ -35,6 +35,7 @@ Page({
     var self = this
     qqmapsdk.search({
       keyword: val,
+      page_size: 20,
       success: function(res) {
         console.log(res);
         if (res.status == 0) {
