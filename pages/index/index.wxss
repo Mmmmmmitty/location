@@ -1,0 +1,87 @@
+/**index.wxss**/
+.userinfo {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  background-color:#fff;
+  padding: 20rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+.userInfo-box{
+  display: inline-block;
+  width: 128rpx;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  display: block;
+  color: #aaa;
+  font-size: 28rpx;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.location{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 28rpx;
+}
+.location-title{
+  display: inline-block;
+  margin-right:20rpx;
+  color:#808892;
+}
+.search-box{
+  width: 100%;
+  background-color:#fff;
+  margin-top: 20rpx;
+}
+.head-box{
+  margin: 0 20rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #e0e0e0;
+}
+.search-title{
+  display: inline-block;
+  width: 120rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+  font-size: 28rpx;
+}
+.search-input{
+  display: inline-block;
+  width: 550rpx;
+  vertical-align: middle;
+  font-size: 28rpx;
+}
+.result-box{
+  display: inline-block;
+  width: 100%;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  height: 830rpx;
+  overflow-y:auto;
+}
+.result-item{
+  line-height: 32rpx;
+  padding: 10rpx 0;
+}
+.item-title{
+  display: inline-block;
+  margin-right: 20rpx;
+  font-size: 28rpx;
+  color:#333333;
+}
+.item-address{
+  font-size:24rpx;
+  color:#808892;
+}
