@@ -15,7 +15,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.4.1",
 	"appid": "wx7a1fc66ce6960700",
-	"projectname": "picker",
+	"projectname": "wxapp",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
